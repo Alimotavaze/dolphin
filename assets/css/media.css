@@ -1,0 +1,82 @@
+@media (min-width: 576px) {
+  .ws-slider-btns {
+    flex-grow: 0;
+    width: max-content;
+  }
+}
+
+@media (min-width: 768px) {
+  .ws-slider-caption-container {
+    padding: 10px 8.5rem;
+  }
+  .ws-slider-big-text {
+    font-size: 3rem;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    align-items: center;
+    margin-bottom: initial !important;
+    margin-right: initial !important;
+  }
+  .ws-slider-top-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .widget-technical {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+@media (max-width: 575.98px) {
+  .contact-box li {
+    margin-left: 0px !important;
+  }
+  .social-box {
+    border: none;
+  }
+  .container {
+    justify-content: center !important;
+  }
+  .btn {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .ws-footer-col {
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .contact-box li {
+    border: none;
+  }
+  .ws-slider-image-container {
+    height: 480px;
+  }
+  .about-badge {
+    right: 30px;
+  }
+  .widget-technical {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .trading-widget1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+}

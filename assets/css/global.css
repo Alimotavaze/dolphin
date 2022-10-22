@@ -1,0 +1,85 @@
+:root {
+  --ws-secondary: #001648;
+  --ws-primary: #ff4900;
+  --ws-color-3: #ffb901;
+}
+@font-face {
+  font-family: "anjoman";
+  src: url(../fonts/Anjoman_Pro/Anjoman-Regular.eot);
+  src: url(../fonts/Anjoman_Pro/Anjoman-Black.eot);
+  src: url(../fonts/Anjoman_Pro/Anjoman-Regular.eot?#iefix)
+    format("embedded opentype");
+  src: url(../fonts/Anjoman_Pro/Anjoman-Black.eot?#iefix)
+    format("embedded opentype");
+  src: url(../fonts/Anjoman_Pro/anjoman-regular.woff) format("woff");
+  src: url(../fonts/Anjoman_Pro/anjoman-black.woff) format("woff");
+  src: url(../fonts/Anjoman_Pro/Anjoman-Regular.ttf) format("truetype");
+}
+body {
+  color: #5d6678 !important;
+}
+.ws-btn-primary {
+  background-color: var(--ws-primary) !important;
+  color: #fff !important;
+}
+.ws-btn-primary:hover {
+  background-color: var(--ws-secondary) !important;
+}
+.ws-btn-outline-primary {
+  background-color: transparent !important;
+  border-color: 1px solid var(--ws-primary) !important;
+  color: var(--ws-primary) !important;
+}
+.ws-btn-outline-primary:hover {
+  background-color: var(--ws-primary) !important;
+  color: #fff !important;
+}
+.ws-btn-secondary {
+  background-color: var(--ws-secondary) !important;
+  color: #fff !important;
+}
+.ws-btn-secondary:hover {
+  background-color: var(--ws-color-3) !important;
+}
+.ws-btn-3 {
+  background-color: var(--ws-color-3) !important;
+  color: #fff !important;
+}
+.ws-btn-3:hover {
+  background-color: var(--ws-secondary) !important;
+  color: #fff !important;
+  border-color: var(--ws-secondary) !important;
+}
+.ws-text-primary {
+  color: var(--ws-primary) !important;
+}
+.ws-text-secondary {
+  color: var(--ws-secondary) !important;
+}
+.ws-text-3 {
+  color: var(--ws-color-3) !important;
+}
+ul {
+  padding-right: 0px !important;
+}
+#ws-services {
+  background-color: #f7fafd;
+}
+.ws-icon-box {
+  background-color: var(--ws-primary);
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 75px;
+  color: #fff;
+  transition: all 0.5s;
+}
+a {
+  color: #5d6678 !important;
+  text-decoration: none !important;
+  transition: all 0.5s;
+}
+a:hover {
+  color: var(--ws-primary) !important;
+}
